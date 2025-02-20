@@ -1,0 +1,129 @@
+---
+import Layout from '../layouts/Default.astro';
+import Navbar from '../components/Navbar.astro'
+import NavbarClone from '../components/NavbarClone.astro'
+
+const title = 'Revolutionize Your Surveys: Cut Costs and Time with Our Advanced USV Platform';
+const author = 'Shubham Garg';
+const date = new Date('2025-02-19'); // Example date
+const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<Layout title={title}>
+  <section class="section">
+    <Navbar />
+    <NavbarClone />
+
+    <div class="container">
+      <div class="content">
+        <h1 class="title is-2">{title}</h1>
+        <p class="subtitle is-6">
+          By {author} | {formattedDate}
+        </p>
+
+        <div style="text-align: center;">
+          <img class="side-image bordered-image-blue-gray" src="/img/illustrations/pages/bottom_line.png" />
+        </div>
+
+
+        <h2>The Challenge of Traditional Surveys</h2>
+        <p>
+          In today's fast-paced world, efficiency and cost-effectiveness are paramount. When it comes to bathymetric and topographic surveys, traditional methods often present significant challenges: lengthy timelines, high labor costs, and complex logistics. Imagine a scenario like the DVC CTPS Reservoir survey in Jharkhand: a 60-day project, a 1200km journey from Delhi, and a team of four required for data collection. The costs and time add up quickly.
+        </p>
+
+
+        <h2>Introducing the Future: Our USV Platform</h2>
+        <p>
+          What if you could drastically reduce these burdens? Our innovative USV platform is designed to do just that. Equipped with advanced sensors and designed for seamless transport in flight cases, our USVs are revolutionizing the survey process.
+        </p>
+
+        <h2>Key Advantages and Cost Savings</h2>
+        <ul>
+          <li><strong>Streamlined Logistics</strong>: Forget the hassle and expense of shipping bulky equipment. Our USVs are designed for easy transport in flight cases, allowing a single operator to carry everything needed.</li>
+
+          <li><strong>Accelerated Data Collection</strong>: Our USVs collect data much faster and more efficiently than traditional methods.</li>
+          <li><strong>Enhanced Accuracy and Efficiency</strong>: Our platform eliminates the need for time-consuming level surveys, providing precise data with advanced sensors.</li>
+          <li><strong>Reduced Labor Costs</strong>: Our USVs require a single operator, drastically reducing the need for large survey teams.</li>
+        </ul>
+
+        <h2>Case Study: DVC CTPS Reservoir, Jharkhand</h2>
+        <p>
+          Let's illustrate the cost savings with a real-world example:
+        </p>
+
+        <div style="text-align: center;">
+          <img class="side-image bordered-image-blue-gray" src="/img/pictures/chandrapura.png" />
+        </div>
+        
+        <h3>Traditional Method</h3>
+        <ul>
+          <li>Team: 4 personnel (Surveyors, Engineer, Operator, Survey Manager)</li>
+          <li>Travel: Multiple trips, equipment transport via road/freight.</li>
+          <li>Survey Time: 2 days of data collection.</li>
+          <li>Time to complete: 2 days</li>
+        </ul>
+        <h3>Our USV Platform</h3>
+        <ul>
+          <li>Team: 1 operator</li>
+          <li>Travel: Single round trip with flight-case equipment.</li>
+          <li>Survey Time: 4 hours of data collection</li>
+          <li>Time to complete: Much less than 1 day.</li>
+        </ul>
+
+
+        <h2>Cost Comparison</h2>
+        <table class="table is-bordered is-striped" style="width: 80%; margin: 0 auto;">
+          <thead>
+            <tr>
+              <th style="width: 30%;">Cost Type</th>
+              <th style="width: 30%;">Traditional Method</th>
+              <th style="width: 30%;">Our USV Platform</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 30%;">Personnel</td>
+              <td style="width: 30%;">4 person team over 2 days</td>
+              <td style="width: 30%;">1 person over 1 day</td>
+            </tr>
+            <tr>
+              <td style="width: 30%;">Travel and Lodging</td>
+              <td style="width: 30%;">4 person to and fro from station and stay</td>
+              <td style="width: 30%;">1 person to and fro from station</td>
+            </tr>
+            <tr>
+                <td style="width: 30%;">Equipment Transport</td>
+                <td style="width: 30%;">To and from station, possibly using road from field office in Delhi</td>
+                <td style="width: 30%;">None, equipment travels with the operator</td>
+            </tr>
+            <tr>
+                <td style="width: 30%;">Time Savings</td>
+                <td style="width: 30%;">Survey Time of 2 days</td>
+                <td style="width: 30%;">Survey time of 4 Hours</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Beyond the Numbers: The Value of Time and Efficiency</h3>
+        <p>
+          While the direct cost savings are substantial, the value of time and efficiency is immeasurable. Faster surveys mean quicker project completion, allowing you to move on to other critical tasks.
+        </p>
+        
+        <h3>Scalability and Future Growth</h3>
+        <p>For larger surveys, the benefits of our USV platform multiply exponentially. Robotic surveys are inherently more efficient and precise, especially as the survey area increases. Furthermore, a single operator can manage multiple USVs, unlocking even greater productivity.</p>
+
+        <h2>Conclusion: Invest in the Future of Surveying</h2>
+        <p>Our USV platform offers a compelling solution for businesses looking to reduce costs, save time, and improve the accuracy of their bathymetric and topographic surveys. By embracing this innovative technology, you can gain a competitive edge and drive greater efficiency in your operations.</p>
+
+        <div class="notification is-info has-text-centered">
+          Contact us today for a demo and discover how our USV platform can transform your survey processes.
+        </div>
+
+        <h3></h3>
+        <p>
+        </p>
+
+      </div>
+    </div>
+  </section>
+</Layout>

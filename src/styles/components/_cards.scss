@@ -4,6 +4,11 @@
 Cards and Card content styles
 ========================================================================== */
 
+// Customs
+.bordered-image-blue-gray {
+  border: 2px solid $blue-grey;
+}
+
 // Feature Card
 .feature-cards {
   max-width: 940px;
